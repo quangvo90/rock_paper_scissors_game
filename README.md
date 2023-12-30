@@ -12,10 +12,16 @@ This is a straightforward implementation of the classic rock, paper, scissors ga
 ## Getting Started
 
 1. Clone the repository:
+    ```bash
+        git clone
+    ```
 
 2. Navigate to the project directory:
 
 3. Run the game:
+    ```bash
+        python rock_paper_scissors.py
+    ```
 
 ## Gameplay
 
