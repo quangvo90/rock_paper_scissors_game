@@ -2,7 +2,7 @@
 
 A simple rock, paper, scissors game using Tkinter.
 
-![Rock_Paper_Scissors](images/rockpaperscissors.gif)
+![Rock_Paper_Scissors](Images/rockpaperscissors.gif)
 
 
 ## Description
