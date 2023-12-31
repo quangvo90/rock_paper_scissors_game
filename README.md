@@ -13,12 +13,33 @@ This is a straightforward implementation of the classic rock, paper, scissors ga
 
 1. Clone the repository:
     ```bash
-        git clone
+        git clone https://github.com/quangvo90/rock_paper_scissors_game.git
     ```
 
 2. Navigate to the project directory:
+    ```bash
+        cd rock_paper_scissors_game
+    ```
 
-3. Run the game:
+3. macOS only - Install dependencies (optionally in a virutal env):
+
+    - See [python docs](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment) for support on installing `venv` if your installation is missing the module.
+
+    
+    ```bash
+        # optional use of virtual env
+        python3 -m venv venv
+        source ./venv/bin/activate
+    ```
+
+    - use `pip` and `brew` to install dependencies missing on macOS in some cases.
+
+    ```bash
+        pip install pillow
+        brew install python-tk
+    ```
+
+4. Run the game:
     ```bash
         python rock_paper_scissors.py
     ```
